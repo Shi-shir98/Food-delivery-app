@@ -1,0 +1,6 @@
+{
+  "name": "Direct Food Delivery",
+  "description": "Commission-free direct-contact food delivery tailored for Kathmandu and major cities in Nepal. Order directly via WhatsApp, Viber, and Phone.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

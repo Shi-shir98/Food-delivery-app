@@ -1,0 +1,50 @@
+import { CityOption } from '../types.ts';
+
+export const NEPAL_CITIES: CityOption[] = [
+  {
+    id: 'kathmandu',
+    name: 'Kathmandu Valley',
+    nameNepali: 'काठमाडौँ उपत्यका',
+    isMainCity: true,
+    tagline: 'Capital Hub (Kathmandu, Lalitpur, Bhaktapur)',
+    taglineNepali: 'नेपालको मुख्य राजधानी (काठमाडौँ, ललितपुर, भक्तपुर)',
+    popularAreas: [
+      'New Baneshwor',
+      'Thamel',
+      'Jhamsikhel',
+      'Lazimpat',
+      'Boudha',
+      'Durbarmarg',
+      'Patan Durbar',
+      'Koteshwor',
+      'Baluwatar',
+    ],
+  },
+  {
+    id: 'pokhara',
+    name: 'Pokhara',
+    nameNepali: 'पोखरा',
+    isMainCity: false,
+    tagline: 'Lake City & Tourism Hub',
+    taglineNepali: 'तालहरूको सहर र पर्यटकीय केन्द्र',
+    popularAreas: ['Lakeside', 'New Road', 'Chipledhunga', 'Mahendrapool', 'Birauta'],
+  },
+  {
+    id: 'butwal',
+    name: 'Butwal',
+    nameNepali: 'बुटवल',
+    isMainCity: false,
+    tagline: 'Lumbini Gateway & Commercial City',
+    taglineNepali: 'लुम्बिनीको प्रवेशद्वार र व्यापारिक केन्द्र',
+    popularAreas: ['Traffic Chowk', 'Golpark', 'Devinagar', 'Milanchowk', 'Kalikanagar'],
+  },
+  {
+    id: 'chitwan',
+    name: 'Chitwan / Bharatpur',
+    nameNepali: 'चितवन / भरतपुर',
+    isMainCity: false,
+    tagline: 'Central Terai & Narayangarh Hub',
+    taglineNepali: 'मध्य तराई तथा नारायणगढ केन्द्र',
+    popularAreas: ['Narayangarh', 'Lions Chowk', 'Chaubiskothi', 'Sauraha', 'Bharatpur Heights'],
+  },
+];
